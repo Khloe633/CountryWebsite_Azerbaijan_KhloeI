@@ -13,47 +13,45 @@ width: 100px;
   background-image: url("https://schonmagazine.com/wp-content/uploads/2025/08/baku-2024-2025-_2555168725-scaled.jpeg");
   padding: 200px; width:1000px;
   color:aliceblue;
-  flex:1;
+  flex:5;
 }
+
 
 #banner h1{
   background-color: cadetblue;
-    opacity: 0.9;
+  opacity: 0.9;
   padding:100px;
   align-items: center;  
-   font-size: 100px;
-    text-shadow: black;
+  font-size: 100px;
+  border-style: solid;    
+  color:aliceblue;
   flex:1;
 }
 
 
-
-
-#links{
+#links a{
     flex-direction:column;
-    flex:6;
-    font-size: 20px;
-    background-color: bisque;
+    flex:1;
+  
+    font-size: 30px;
+    align-items: right;
     width:200px;
 }
-nav a{
+nav{
   flex:1;
-  width:200px;
+  background-color: bisque;
   flex-direction:column;
+  font-size: 50px;
 }
 
-img{
-  height: 100;
-  width:180;
-}
 
 
 #about{
   flex: 4;
   align-items: left;
-  justify-content: left;
-  font-size: 20px;
-      background-color:cadetblue;
+  justify-content: center;
+  font-size: 25px;
+  background-color:cadetblue;
 }
 
 #about p{
@@ -64,17 +62,14 @@ body{
   font-family:'sans-serif';
 }
 
-#one, #three{
-  align-items: center;
-flex:1;
-}
-#two{
-  align-items: center;
-  flex:2;
+#content{
+  flex-direction: row;
+  flex:1;
 }
 
 
 #footer{
     background-color:cadetblue;
+    border-style: solid;
   flex:1
 }
