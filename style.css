@@ -3,7 +3,7 @@
 }
 
 
-#banner{
+.banner{
   align-items: center;  
   justify-content: center;
   font-family: 'Franklin Gothic Medium';
@@ -11,19 +11,22 @@
   background-size: cover;      
   background-position: center;
   background-repeat: no-repeat;
-  padding: 150px;
-  color:aliceblue;
-  flex:1;
+  padding: 200px;
+  flex:4;
 }
 
 
-#banner h1{
-  background-color: cadetblue;
-  opacity: 0.9;
-  padding: 100px;
-  font-size: 100px;
-  border: solid;
+.banner h1{
+  background-color: rgba(95,158,160,0.9);
+  padding: 45px;
+  font-size: 40px;
+  margin-top: -40px;
+  text-align: center;
+}
+
+#text{
   color: aliceblue;
+  text-shadow: 2px 2px 4px #000;
 }
 
 nav{
@@ -54,10 +57,24 @@ nav{
   background-color:cadetblue;
 }
 
-#about p{
-  
+.card{
+  flex:1;
+  margin:40px;
+  padding:10px;
+  border:solid black 2px;
+  border-radius: 5px;
 }
 
+.card img{
+  height:200px;
+  width:280px;
+}
+
+#one{
+  flex:1;
+  margin:40px;
+  padding:10px;
+}
 body{
   font-family:'sans-serif';
   background-color: rgb(255, 255, 255);
@@ -67,6 +84,9 @@ body{
   flex:1;
 }
 
+#two #three{
+  margin:50px;
+}
 
 .header{
   display:flex;
