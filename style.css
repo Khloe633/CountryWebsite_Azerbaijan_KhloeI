@@ -34,7 +34,7 @@
 }
 
 #landmarks{
-background-image: url("images/landmark_banner.png");
+background-image: url("images/bakunight.jpg");
   background-size: cover;      
   background-position: center;
   background-repeat: no-repeat;
@@ -132,7 +132,9 @@ body{
 }
 
 
-
+#baku{
+  background-image: linear-gradient(to top, rgb(34, 50, 80), rgb(117, 115, 221));
+}
 
 
 
