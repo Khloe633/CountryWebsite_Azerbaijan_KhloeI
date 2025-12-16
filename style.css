@@ -149,6 +149,10 @@ body{
   justify-content: center;
 }
 
+#dolma, #kebab, #plov{
+  background-color: rgb(230, 135, 72);
+}
+
 .header{
   display:flex;
   flex:1;
